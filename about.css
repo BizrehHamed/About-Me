@@ -1,0 +1,55 @@
+.about-section{
+	font-family: Arial;
+	margin-left: 400px;
+	padding-right: 400px;
+	padding-top: 180px;
+}
+.pfp{
+  width: 250px; 
+  height: 250px; 
+  object-fit: cover; 
+  border-radius: 10px; 
+  box-shadow: 4px 4px 10px rgba(0,0,0,0.5);
+}
+.head-photo-flex{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.about-head{
+	margin: 0;
+	width: 400px;
+	line-height: 80px;
+	font-weight: bold;
+	font-size: 65px;
+}
+.about-paragraph1{
+	width: 700px;
+	font-size: 18px;
+	line-height: 25px;
+	margin: 0;
+}
+.about-paragraph2{
+	width: 700px;
+	font-size: 18px;
+	line-height: 25px;
+	margin-top: 30px;
+}
+.about-paragraph3{
+	width: 700px;
+	font-size: 18px;
+	line-height: 25px;
+	margin-top: 30px;
+	margin-bottom: 45px;
+}
+.skills{
+	display: inline;
+	display: grid;
+	grid-template-columns: 200px 270px 470px;
+}
+.work-skills-title{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 615px;
+}
