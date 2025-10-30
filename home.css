@@ -1,7 +1,17 @@
 html, body {
-  
+  overflow-y: scroll;
+  scroll-snap-type: y proximity;
   scroll-behavior: smooth;
+  height: 100vh;
 	background-color: white; /*#FAF7F3*/
+}
+html{
+  overflow-y: hidden;
+}
+body section{
+  scroll-snap-align: start;
+  scroll-margin-top: 170px;
+  min-height: 100vh;
 }
 nav{
 	position: fixed;

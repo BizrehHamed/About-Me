@@ -1,8 +1,7 @@
 #about{
 	font-family: Arial;
 	max-width: 1050px;
-  margin: 180px auto 0;
-  scroll-margin-top: 180px;
+  margin: 0 auto ;  
 }
 .pfp{
   width: 250px; 
