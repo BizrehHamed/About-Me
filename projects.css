@@ -1,8 +1,8 @@
-.projects-section{
-  padding-top: 166px;
+#projects{
   font-family: Arial;
-  margin-left: 250px;
-	padding-right: 250px;
+  max-width: 1360px;
+  margin: 165px auto 0;
+  scroll-margin-top: 165px;
   display: flex;
   flex-direction: row;
   column-gap: 150px;
@@ -26,12 +26,10 @@ table {
   font-size: 16px;
   text-align: left;
 }
-
 th, td {
   border: 1px solid #ddd;
   padding: 12px 15px;
 }
-
 th {
   background-color: #DCC5B2;
   color: white;
@@ -43,7 +41,6 @@ tr:hover {
   background-color: #e5f0ff;
   transition: 0.3s;
 }
-
 .projects-image{
   width: 450px;
   height: 250px;
@@ -53,11 +50,6 @@ tr:hover {
   margin-left: 100px;
   margin-bottom: 5px;
 }
-.projects-image2{
-  width: 450px;
-  height: 250px;
-  object-fit: cover;
-  border-radius: 20px;
-  box-shadow: 4px 4px 10px rgba(0,0,0,0.5);
-  margin-bottom: 5px;
+.odd{
+  margin-left: 0px;
 }

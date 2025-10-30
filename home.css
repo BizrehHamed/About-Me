@@ -1,5 +1,5 @@
 html, body {
-  overflow: hidden;
+  
   scroll-behavior: smooth;
 	background-color: white; /*#FAF7F3*/
 }
@@ -12,24 +12,22 @@ nav{
 	font-family: Arial;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
 	height: 70px;
 	box-shadow: 0px 1px 5px rgba(0,0,0,0.3);
-	padding-left: 100px;
-	padding-right: 100px;
 }
-.nav-button{
+nav a{
 	color: rgba(0,0,0,0.5);
 	text-decoration: none;
 	font-size: 20px;
 	font-weight: bold;
 	transition: color 0.2s;
 }
-.nav-button:hover{
+nav a:hover{
 	color: black;
 }
-.nav-button:active{
+nav a:active{
 color: rgb(96,96,96);
 }
 .quick-about{
@@ -62,26 +60,17 @@ color: rgb(96,96,96);
 	color: white;
 	border: none;
 	border-radius: 5px;
-	font-size: 18px;
-	padding-top: 12px;
-	padding-bottom: 12px;
-	transition: box-shadow 0.25s,background-color 0.25s,color 0.25s;
+	padding: 12px 180px;
+  margin-bottom: 270px;
+  font-size: 18px;
+  text-decoration: none;
 	cursor: pointer;
-	margin-bottom: 270px;
+  transition: box-shadow 0.25s,background-color 0.25s,color 0.25s;
 }
 .hello-button:hover{
 	box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
-	background-color: rgb(224, 229, 236);
-	color: black;
+	background-color: rgb(60, 60, 60);
 }
 .hello-button:active{
 	box-shadow: 5px 5px 10px rgba(0,0,0,0.8);
-}
-.hello-link{
-	color: white;
-	text-decoration: none;
-	padding-top: 12px;
-	padding-bottom: 12px;
-	padding-left: 180px;
-	padding-right: 180px;
 }

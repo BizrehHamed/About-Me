@@ -1,8 +1,8 @@
-.about-section{
+#about{
 	font-family: Arial;
-	margin-left: 400px;
-	padding-right: 400px;
-	padding-top: 180px;
+	max-width: 1050px;
+  margin: 180px auto 0;
+  scroll-margin-top: 180px;
 }
 .pfp{
   width: 250px; 
@@ -23,24 +23,11 @@
 	font-weight: bold;
 	font-size: 65px;
 }
-.about-paragraph1{
+.about-paragraph{
 	width: 700px;
 	font-size: 18px;
 	line-height: 25px;
-	margin: 0;
-}
-.about-paragraph2{
-	width: 700px;
-	font-size: 18px;
-	line-height: 25px;
-	margin-top: 30px;
-}
-.about-paragraph3{
-	width: 700px;
-	font-size: 18px;
-	line-height: 25px;
-	margin-top: 30px;
-	margin-bottom: 45px;
+	margin: 5px 0 45px;
 }
 .skills{
 	display: inline;
