@@ -1,1 +1,1 @@
-First Temporary about-me page, check it out at: https://bizrehhamed.github.io/About-Me/
+First Temporary about-me page, check it out at: https://hamedbizreh.github.io/About-Me/
